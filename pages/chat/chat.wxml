@@ -1,0 +1,17 @@
+<!--pages/chat/chat.wxml-->
+<scroll-view scroll-x='true'>
+  <view>a</view>
+  <view>b</view>
+  <view>c</view>
+</scroll-view>
+<swiper autoplay='{{autoplay}}' indicator-dots='{{showDots}}'>
+  <block wx:for='{{imgURL}}' wx:key='*this'>
+    <swiper-item>
+      <image src='{{item}}'></image>
+    </swiper-item>
+  </block>
+</swiper>
+<switch type='switch' bindchange='sw1'>自动播放</switch>
+<switch type='switch' bindchange='sw2'></switch>
+<icon type='success'></icon>
+<navigator url='/pages/friend/friend' open-type='switchTab'>ToFriend</navigator>

@@ -1,0 +1,41 @@
+<!--index.wxml-->
+<text>MyFirst</text>
+<view>{{number}}</view>
+<view wx:for="{{ arr }}" wx:key="item">
+  <view hover-class='hover1'>{{ item }}</view>
+</view>
+<view wx:for="{{ array }}" wx:key="item">
+  <view>{{ item.a }}</view>
+</view>
+<button bindtap='btn_go'>go</button>
+<progress show-info='true' percent='{{percent}}'></progress>
+<form bindsubmit='formSubmit'>
+  <checkbox name='check'>性别</checkbox>
+  账号:<input type='text' name='name' />        
+  密码:<input type='text' password='true' name='pwd' />
+  <picker range='{{arr}}' value='2' bindchange='picker1'>
+    当前选择的数字：{{arr[index]}}
+  </picker>
+  <picker mode='time' value='12:00' start='7:00' end='20:00' bindchange='picker2'>
+    当前时间:{{time}}
+  </picker>
+  <button type='primary' loading='true' form-type='submit'>submit</button>
+</form>
+<audio poster='{{poster}}' name='{{name}}' author='{{author}}' src='{{src}}' id='myAudio' controls loop></audio>
+<slider bindchange='sliderChange'></slider>
+<button bindtap='play'>play</button>
+<button bindtap='pause'>pause</button>
+<button bindtap='position'>position</button>
+<button bindtap='toStart'>toStart</button>
+<!-- <view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+</view> -->

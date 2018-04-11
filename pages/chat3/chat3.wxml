@@ -1,0 +1,3 @@
+<!--pages/chat3/chat3.wxml-->
+<view>{{name}}</view>
+<view>{{phone}}</view>

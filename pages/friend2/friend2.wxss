@@ -1,0 +1,14 @@
+/* pages/friend2/friend2.wxss */
+.box1{
+  width: 100%;
+  height: 500rpx;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box2 {
+  width: 100rpx;
+  height: 100rpx;
+  background-color: pink
+}

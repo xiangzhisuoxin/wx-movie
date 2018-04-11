@@ -1,0 +1,14 @@
+<!--pages/friend2/friend2.wxml-->
+ <navigator url='/pages/chat/chat' open-type='navigateBack' delta='1'>back</navigator> 
+<view class='box1'>
+  <view class='box2' animation='{{animation}}'></view>
+</view>
+<scroll-view>
+  <button bindtap='rotate'>rotate</button>
+</scroll-view>
+<view></view>
+<button bindtap='getInfo'>getInfo</button>
+<view></view>
+<view></view>
+<view></view>
+<view></view>

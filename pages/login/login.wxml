@@ -1,0 +1,6 @@
+<!--pages/login/login.wxml-->
+<button bindtap='login'>login</button>
+<button bindtap='check'>check</button>
+<button bindtap='getInfo'>getInfo</button>
+<image src='{{avatarUrl}}'></image>
+<view>{{nickName}}</view>

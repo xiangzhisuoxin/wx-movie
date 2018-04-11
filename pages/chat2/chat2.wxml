@@ -1,0 +1,5 @@
+<!--pages/chat2/chat2.wxml-->
+<input type='text' placeholder='name' bindblur='nameBlur' id='name'/>
+<input type='text' placeholder='phone' bindblur='phoneBlur' id='phone'/>
+<button bindtap='submit'>submit</button>
+<button bindtap='toChat3'>toChat3</button>

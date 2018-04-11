@@ -1,0 +1,52 @@
+{
+  "pages":[
+    "pages/login/login",
+    "pages/download/download",
+    "pages/upload/upload",
+    "pages/friend2/friend2",
+    "pages/chat2/chat2",
+    "pages/chat3/chat3",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/chat/chat",
+    "pages/friend/friend",
+    "pages/me/me"
+    
+  ],
+  "window":{
+    "enablePullDownRefresh": true,
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#eee",
+    "navigationBarTitleText": "MyFirst",
+    "navigationBarTextStyle":"black",
+    "backgroundColor": "#eee"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "index",
+        "iconPath":"images/index.png",
+        "selectedIconPath": "images/index_act.png"
+      },
+      {
+        "pagePath": "pages/chat/chat",
+        "text": "chat",
+        "iconPath": "images/index.png",
+        "selectedIconPath": "images/index_act.png"
+      },
+      {
+        "pagePath": "pages/friend/friend",
+        "text": "friend",
+        "iconPath": "images/index.png",
+        "selectedIconPath": "images/index_act.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "me",
+        "iconPath": "images/index.png",
+        "selectedIconPath": "images/index_act.png"
+      }
+    ]
+  }
+}
